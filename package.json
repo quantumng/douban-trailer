@@ -4,7 +4,8 @@
   "description": "",
   "main": "server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node .\/server\/"
   },
   "keywords": [
     "douban",
@@ -12,7 +13,9 @@
   ],
   "author": "",
   "license": "MIT",
-  "devDependencies": {
-    "koa": "^2.7.0"
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-views": "^6.1.5",
+    "pug": "^2.0.3"
   }
 }
